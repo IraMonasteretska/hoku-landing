@@ -1,0 +1,25 @@
+header.header {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    z-index: 12;
+
+    .container {
+        position: relative;
+    }
+
+    .menu {
+        background: transparent;
+        padding: 0;
+        border: none;
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+}
