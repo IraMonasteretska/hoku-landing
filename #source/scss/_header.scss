@@ -5,6 +5,7 @@ header.header {
     width: 100%;
     z-index: 12;
 
+
     .container {
         position: relative;
     }
@@ -22,4 +23,14 @@ header.header {
         justify-content: center;
         cursor: pointer;
     }
+}
+
+
+@media(max-width:1599.8px) {
+
+    header.header {
+        top: 20px;
+    }
+
+
 }

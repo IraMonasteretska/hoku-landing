@@ -92,6 +92,8 @@ p {
     font-size: 20px;
     letter-spacing: 2px;
     position: relative;
+    border: none;
+    cursor: pointer;
 
     span {
         position: relative;
@@ -114,5 +116,40 @@ p {
         &::after {
             height: 100%;
         }
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+@media(max-width:1599.8px) {
+
+    h1 {
+        font-size: 80px;
+    }
+
+    .blue-btn {
+        font-size: 18px;
+    }
+
+}
+
+@media(max-width:1399.8px) {
+    h1 {
+        font-size: 65px;
+    }
+
+    .blue-btn {
+        font-size: 16px;
+        padding: 4px 20px;
+        height: 48px;
     }
 }

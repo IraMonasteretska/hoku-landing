@@ -1,0 +1,42 @@
+footer.footer {
+    background: $main-blue;
+    padding: 32px 0 40px;
+
+    p {
+        text-align: center;
+        margin: 0;
+        color: #fff;
+        font-size: 15px;
+    }
+
+    a {
+        font-size: 15px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .footer__item {
+        padding-bottom: 20px;
+    }
+}
+
+.footer__logo img {
+    max-width: 289px;
+    vertical-align: top;
+}
+
+
+@media(max-width:1599.8px) {
+
+    .footer__logo img {
+        max-width: 220px;
+    }
+
+
+
+
+
+
+    
+
+}
