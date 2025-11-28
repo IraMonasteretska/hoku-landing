@@ -24,11 +24,12 @@
                 </button>
             </div>
         </div>
+
+        
     </header>
-    
+
     <main class="main">
-        <div class="hero light">
-            <!-- <img class="hero__bg fill-img" src="img/hero.jpg" alt="img"> -->
+        <div class="hero">
             <video autoplay loop muted playsinline class="fill-img">
                 <source src="video/video.mp4" type="video/mp4">
             </video>
@@ -56,10 +57,10 @@
             </div>
         </div>
 
-        <div class="about dark">
+        <div class="about" aria-invalid="1">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-xl-8">
+                    <div class="col-lg-8">
                         <h6 class="section-title">
                             // ABOUT US
                         </h6>
@@ -68,7 +69,7 @@
                             hydrogen technologies, and advanced data compute.
                         </p>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-lg-4">
                         <div class="imgwrap">
                             <img src="img/about-illustration.svg" alt="img">
                         </div>
@@ -77,15 +78,16 @@
             </div>
         </div>
 
-        <div class="advantages">
+        <div class="advantages" id="2">
             <img class="fill-img" src="img/advantages-bg.jpg" alt="img">
             <div class="container">
                 <h6 class="section-title white">
-                    // ABOUT US
+                    // OUR ADVANTAGES
                 </h6>
                 <div class="row">
-                    <div class="col-xl-3">
-                        <div class="advantages-item" style="background: #4D89DA;">
+                    <div class="col-xl-3 col-md-6">
+                        <div class="advantages-item" style="background: #4D89DA;" data-aos="fade-up"
+                            data-aos-delay="100">
                             <img class="advantages__icon" src="img/advantages-icon.svg" alt="icon">
                             <h6>Energy and Compute, Unified.</h6>
                             <p>
@@ -94,8 +96,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xl-3">
-                        <div class="advantages-item" style="background: #90D1F6;">
+                    <div class="col-xl-3 col-md-6">
+                        <div class="advantages-item" style="background: #90D1F6;" data-aos="fade-up"
+                            data-aos-delay="300">
                             <img class="advantages__icon" src="img/advantages-icon.svg" alt="icon">
                             <h6>Built for Zero Emissions.</h6>
                             <p>
@@ -104,8 +107,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xl-3">
-                        <div class="advantages-item" style="background: #D4EEFF;">
+                    <div class="col-xl-3 col-md-6">
+                        <div class="advantages-item" style="background: #D4EEFF;" data-aos="fade-up"
+                            data-aos-delay="500">
                             <img class="advantages__icon" src="img/advantages-icon.svg" alt="icon">
                             <h6>Systems for a Smarter Grid.</h6>
                             <p>
@@ -114,8 +118,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xl-3">
-                        <div class="advantages-item" style="background: #A8D8FF;">
+                    <div class="col-xl-3 col-md-6">
+                        <div class="advantages-item" style="background: #A8D8FF;" data-aos="fade-up"
+                            data-aos-delay="700">
                             <img class="advantages__icon" src="img/advantages-icon.svg" alt="icon">
                             <h6>Ready for What’s Next.</h6>
                             <p>
@@ -142,29 +147,36 @@
                     </div>
                 </div>
             </div>
+            <div class="circles-animation">
+                <span class="c1"></span>
+                <span class="c2"></span>
+                <span class="c3"></span>
+                <span class="c4"></span>
+                <span class="c5"></span>
+            </div>
         </div>
 
-        <div class="solutions">
+        <div class="solutions" id="3">
             <div class="container">
                 <h6 class="section-title white">
                     [ Our solutions ]
                 </h6>
                 <div class="row">
-                    <div class="col-xl-6">
+                    <div class="col-lg-6">
                         <p class="title">
                             Leading to a more sustainable and prosperous future
                         </p>
                     </div>
-                    <div class="col-xl-5 offset-xl-1">
+                    <div class="col-xl-5 offset-xl-1 col-lg-6">
                         <div class="solutions__wrapper">
-                            <div class="solutions__item">
+                            <div class="solutions__item" data-aos="fade-left">
                                 <h6>24 x 7 Carbon Free Energy (CFE)</h6>
                                 <p>
                                     24x7 Carbon-Free Energy (CFE) solutions offer significant potential for bridging the
                                     supply-demand gap in renewable energy while ensuring complete transparency.
                                 </p>
                             </div>
-                            <div class="solutions__item">
+                            <div class="solutions__item" data-aos="fade-left">
                                 <h6>The Hydrogen Solution</h6>
                                 <p>
                                     Hydrogen and its diverse carriers have emerged as the unequivocal solution for
@@ -172,14 +184,14 @@
                                     comprehensive decarbonization. 
                                 </p>
                             </div>
-                            <div class="solutions__item">
+                            <div class="solutions__item" data-aos="fade-left">
                                 <h6>Dispatchable & Reliable Green Energy Supply</h6>
                                 <p>
                                     The current grid was designed for fossil fuel-based power, allowing for dispatchable
                                     adjustments to match demand.
                                 </p>
                             </div>
-                            <div class="solutions__item">
+                            <div class="solutions__item" data-aos="fade-left">
                                 <h6>Creating and Developing Green Transformation Economy</h6>
                                 <p>
                                     Our clean fuels solution offers opportunities for countries, municipalities, and
@@ -193,15 +205,15 @@
             </div>
         </div>
 
-        <div class="projects">
+        <div class="projects" id="4">
             <img src="img/projects-pic.png" alt="bg" class="bg-element">
             <div class="container">
                 <h6 class="section-title">
                     // OUR PROJECTS
                 </h6>
                 <div class="row">
-                    <div class="col-xl-4">
-                        <div class="project-item">
+                    <div class="col-lg-4">
+                        <a href="#" class="project-item">
                             <div class="imgwrap">
                                 <img class="fill-img" src="img/project1.jpg" alt="img">
                             </div>
@@ -210,10 +222,10 @@
                                 This includes the strategic development and support of an international hydrogen supply
                                 chain.
                             </p>
-                        </div>
+                        </a>
                     </div>
-                    <div class="col-xl-4">
-                        <div class="project-item">
+                    <div class="col-lg-4">
+                        <a href="#" class="project-item">
                             <div class="imgwrap">
                                 <img class="fill-img" src="img/project2.jpg" alt="img">
                             </div>
@@ -222,10 +234,10 @@
                                 We are developing projects to contribute to Taiwan’s national renewable energy
                                 strategies, including its Pathway to Net-Zero Emissions by 2050.
                             </p>
-                        </div>
+                        </a>
                     </div>
-                    <div class="col-xl-4">
-                        <div class="project-item">
+                    <div class="col-lg-4">
+                        <a href="#" class="project-item">
                             <div class="imgwrap">
                                 <img class="fill-img" src="img/project3.jpg" alt="img">
                             </div>
@@ -234,7 +246,7 @@
                                 We play a crucial role in contributing to the national strategy for decarbonization and
                                 the diversification of energy sources through our low-carbon energy solutions.
                             </p>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="projects-info">
@@ -246,14 +258,14 @@
             </div>
         </div>
 
-        <div class="news">
+        <div class="news" id="5">
             <div class="container">
                 <div class="news_header">
                     <div class="row align-items-center">
-                        <div class="col-xl-8">
+                        <div class="col-xl-8 col-6">
                             <p>Latest news</p>
                         </div>
-                        <div class="col-xl-4 text-end">
+                        <div class="col-xl-4 col-6 text-end ">
                             <a href="#" class="link-explore">
                                 <span>Explore</span>
                                 All News
@@ -264,8 +276,8 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-xl-4">
-                        <div class="news-item">
+                    <div class="col-lg-4">
+                        <a href="#" class="news-item">
                             <div class="imgwrap">
                                 <img class="fill-img" src="img/new1.jpg" alt="img">
                             </div>
@@ -276,10 +288,10 @@
                                     CADIZ and Hoku Energy sign MoU for Hydrogen – Solar Development at Cadiz Ranch
                                 </p>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    <div class="col-xl-4">
-                        <div class="news-item">
+                    <div class="col-lg-4">
+                        <a href="#" class="news-item">
                             <div class="imgwrap">
                                 <img class="fill-img" src="img/new2.jpg" alt="img">
                             </div>
@@ -290,10 +302,10 @@
                                     Hoku Energy Signs MOU with Odisha State, India
                                 </p>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    <div class="col-xl-4">
-                        <div class="news-item">
+                    <div class="col-lg-4">
+                        <a href="#" class="news-item">
                             <div class="imgwrap">
                                 <img class="fill-img" src="img/new3.jpg" alt="img">
                             </div>
@@ -305,17 +317,17 @@
                                     Japan
                                 </p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="contacts">
+        <div class="contacts" id="6">
             <div class="container">
                 <div class="formcontainer">
                     <div class="row">
-                        <div class="col-xxl-7 col-xl-6">
+                        <div class="col-xxl-7 col-lg-6">
                             <div class="contacts__content">
                                 <p class="title">
                                     Let’s<br> Connect
@@ -327,7 +339,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-xxl-5 col-xl-6">
+                        <div class="col-xxl-5 col-lg-6">
                             <div class="form-wrapper">
                                 <div class="subtitle">
                                     // Have a project in mind you’d like to discuss?
@@ -335,31 +347,31 @@
                                 <div class="form-title">Contact Us</div>
                                 <form action="#">
                                     <div class="row">
-                                        <div class="col-xl-6">
+                                        <div class="col-sm-6">
                                             <div class="inputfield">
                                                 <label for="fname">First name*</label>
                                                 <input type="text" id="fname">
                                             </div>
                                         </div>
-                                        <div class="col-xl-6">
+                                        <div class="col-sm-6">
                                             <div class="inputfield">
                                                 <label for="lname">Last name*</label>
                                                 <input type="text" id="lname">
                                             </div>
                                         </div>
-                                        <div class="col-xl-12">
+                                        <div class="col-12">
                                             <div class="inputfield">
                                                 <label for="email">Email*</label>
                                                 <input type="email" id="email">
                                             </div>
                                         </div>
-                                        <div class="col-xl-12">
+                                        <div class="col-12">
                                             <div class="inputfield">
                                                 <label for="tel">Phone number*</label>
                                                 <input type="number" id="tel">
                                             </div>
                                         </div>
-                                        <div class="col-xl-12">
+                                        <div class="col-12">
                                             <div class="inputfield">
                                                 <label for="message">Message*</label>
                                                 <textarea id="message"></textarea>
@@ -439,22 +451,23 @@
         </div>
 
     </main>
+
     <footer class="footer">
         <div class="container">
             <div class="row align-items-end">
-                <div class="col-xl-4">
+                <div class="col-lg-4 col-md-3">
                     <a href="#" class="footer__logo">
                         <img src="img/logo-footer.svg" alt="logo">
                     </a>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="footer__item">
                         <p>
                             © Copyright 2025. All rights reserved
                         </p>
                     </div>
                 </div>
-                <div class="col-xl-4 text-end">
+                <div class="col-lg-4 col-md-3 text-end text-sm-center">
                     <div class="footer__item">
                         <a href="#" class="footer__soclink">Linkedin</a>
                     </div>
