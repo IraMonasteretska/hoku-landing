@@ -83,7 +83,7 @@
 .advantages {
     position: relative;
     overflow: hidden;
-    padding: 330px 0 120px;
+    padding: 105px 0 120px;
 
     .container {
         position: relative;
@@ -688,6 +688,16 @@
     z-index: 1;
 }
 
+.gifsection {
+    position: relative;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        vertical-align: top;
+    }
+}
+
 @media(max-width:1599.8px) {
 
     .hero__bottomsect {
@@ -750,7 +760,7 @@
 
 
     .advantages {
-        padding: 260px 0 100px;
+        padding: 100px 0 100px;
     }
 
     .news {
@@ -840,10 +850,6 @@
 
     .contacts__content .title {
         margin-bottom: 20px;
-    }
-
-    .advantages {
-        padding: 200px 0 100px;
     }
 
     .about,
