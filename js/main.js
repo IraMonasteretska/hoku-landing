@@ -20,14 +20,21 @@ $(document).ready(function () {
 
   })
 
-  $("menuwrapper a").on("click", function (e) {
+  $(".menuwrapper a").on("click", function (e) {
     var anchor = $(this);
     $('html, body').stop().animate({
-      scrollTop: $(anchor.attr('href')).offset().top - 50
+      scrollTop: $(anchor.attr('href')).offset().top
     }, 777);
     e.preventDefault();
     return false;
   });
+
+  $('.menuwrapper a').on('click', function () {
+    $('body').removeClass('hidden');
+    $('body').removeClass('blur');
+    $('.header.header').removeClass('open');
+  });
+
 
 
 
