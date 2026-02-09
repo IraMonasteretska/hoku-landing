@@ -139,9 +139,48 @@ $(document).ready(function () {
   updateIcons();
 
 
+  // project slider
+  if ($('.project-slider').length) {
+    var swiper = new Swiper(".project-slider", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      speed: 700,
+      loop: true,
+
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+      navigation: {
+        nextEl: ".swiper-button-next.slarr",
+        prevEl: ".swiper-button-prev.slarr",
+      },
+
+      breakpoints: {
+        480: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        576: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+      },
 
 
 
+    });
+  }
 
 
 })
