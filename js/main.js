@@ -151,12 +151,6 @@ $(document).ready(function () {
         delay: 5000,
         disableOnInteraction: false,
       },
-
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-
       navigation: {
         nextEl: ".swiper-button-next.slarr",
         prevEl: ".swiper-button-prev.slarr",
