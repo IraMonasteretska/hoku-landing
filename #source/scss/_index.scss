@@ -368,6 +368,7 @@
         position: relative;
         overflow: hidden;
         margin-bottom: 20px;
+        border-radius: 10px;
 
         img {
             transform: scale(1.05);
@@ -491,6 +492,7 @@
         overflow: hidden;
         aspect-ratio: 9 / 5.1;
         margin-bottom: 20px;
+        border-radius: 10px;
 
         img {
             transform: scale(1.05);
@@ -571,6 +573,7 @@
 .form-wrapper {
     background: #fff;
     padding: 50px 32px;
+    border-radius: 10px;
 
     .subtitle {
         margin-bottom: 15px;
